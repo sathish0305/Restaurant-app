@@ -1,13 +1,12 @@
 import React from 'react'
-import NavigationBar from './NavigationBar'
 import BannerBackgroundImage from '../assets/home-banner-background.png'
 import HomeBannerImage from '../assets/home-banner-image.png'
 import { FiArrowRight } from "react-icons/fi"
+import About from './About'
 
 function Home() {
   return (
     <div>
-        <NavigationBar />
         <div className="home-banner-container">
           <div className="home-bannerImage-container">
             <img src={BannerBackgroundImage} alt="" />
@@ -27,6 +26,7 @@ function Home() {
               <img src={HomeBannerImage} alt="" />
             </div>
         </div>
+        <About />
     </div>
   )
 }

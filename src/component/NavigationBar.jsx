@@ -16,6 +16,8 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 
+import { Link } from 'react-router-dom';
+
 
 function NavigationBar() {
   const [openMenu,setOpenMenu] = useState(false)
@@ -44,8 +46,8 @@ function NavigationBar() {
             <img src={logo} alt="" />
         </div>
         <div className='navbar-links-container'>
-                <a href="">Home</a>
-                <a href="">About</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
                 <a href="">Testimonials</a>
                 <a href="">Contact</a>
                 <a href="">
