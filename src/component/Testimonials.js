@@ -1,6 +1,7 @@
 import React from 'react'
 import ProfilePic from '../assets/john-doe-image.png'
 import { AiFillStar } from "react-icons/ai";
+import Contact from './Contact';
 
 function Testimonials() {
   return (
@@ -23,6 +24,7 @@ function Testimonials() {
             <h1 className='primary-subheading'>Walter White</h1>
         </div>
       </div>
+      <Contact />
     </div>
   )
 }

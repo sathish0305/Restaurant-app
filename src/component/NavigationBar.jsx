@@ -49,7 +49,7 @@ function NavigationBar() {
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/testimonials">Testimonials</Link>
-                <a href="">Contact</a>
+                <Link to="/contact">Contact</Link>
                 <a href="">
                   <BsCart2 className="navbar-cart-icon" />
                 </a>
