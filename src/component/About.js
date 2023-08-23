@@ -2,9 +2,11 @@ import React from 'react'
 import AboutBackground from '../assets/about-background.png'
 import AboutBackgroundImage from '../assets/about-background-image.png'
 import { BsFillPlayCircleFill } from 'react-icons/bs'
+import Work from './Work'
 
 function About() {
   return (
+    <>
     <div className='about-section-container'>
         <div className='about-background-image-container'>
             <img src={AboutBackground} alt="" />
@@ -29,6 +31,8 @@ function About() {
             </div>
         </div>
     </div>
+        <Work />
+        </>
   )
 }
 

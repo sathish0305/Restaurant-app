@@ -48,7 +48,7 @@ function NavigationBar() {
         <div className='navbar-links-container'>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
-                <a href="">Testimonials</a>
+                <Link to="/testimonials">Testimonials</Link>
                 <a href="">Contact</a>
                 <a href="">
                   <BsCart2 className="navbar-cart-icon" />
