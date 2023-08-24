@@ -25,21 +25,24 @@ function NavigationBar() {
     {
       text: "Home",
       icon: <HomeIcon />
-    },{
+    },
+    {
       text: "About",
       icon: <InfoIcon />
     },
-    ,{
+    {
       text: "Testimonials",
       icon: <CommentRoundedIcon />
-    },{
+    },
+    {
       text: "Contact",
       icon: <PhoneRoundedIcon />
-    },{
+    },
+    {
       text: 'Cart',
       icon: <ShoppingCartRoundedIcon />
     }
-  ];
+  ]
   return (
     <nav>
         <div className='nav-logo-container'>
@@ -50,9 +53,9 @@ function NavigationBar() {
                 <Link to="/about">About</Link>
                 <Link to="/testimonials">Testimonials</Link>
                 <Link to="/contact">Contact</Link>
-                <a href="">
+                <Link to="#">
                   <BsCart2 className="navbar-cart-icon" />
-                </a>
+                </Link>
                 <button className="primary-button">Bookings Now</button>
         </div>
               
