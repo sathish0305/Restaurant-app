@@ -13,12 +13,12 @@ function Work() {
         },
         {
             Image : ChooseMeals,
-            title : 'Pick Meals',
+            title : 'Choose Meals',
             text : ' Elevate your dining with an extensive selection of fine wines and beverages. '
         },
         {
             Image : DeliveryMeals,
-            title : 'Pick Meals',
+            title : 'Delivery',
             text : 'Savor delectable dishes made from the freshest, locally sourced ingredients, ensuring an unforgettable dining experience. '
         }
     ]

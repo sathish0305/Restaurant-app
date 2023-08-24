@@ -60,7 +60,7 @@ function NavigationBar() {
                   <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
                 </div>    
 
-                <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">
+                <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="left">
         <Box
           sx={{ width: 250 }}
           role="presentation"

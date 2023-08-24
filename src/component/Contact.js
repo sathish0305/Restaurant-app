@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 function Contact() {
   return (
@@ -15,6 +16,7 @@ function Contact() {
             </button>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
